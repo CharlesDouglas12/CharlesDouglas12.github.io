@@ -24,7 +24,7 @@
      *              stretch the platform in height.
      */ 
     platform.init = function (game) {
-        ////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////
         // ALL YOUR CODE GOES BELOW HERE ///////////////////////////////////////
         
         /*
@@ -34,12 +34,11 @@
          */
         platform.create(0, game.world.height - 32, 3, 2);
 
-        // example:
-        platform.create(400, 460);
-        platform.create(500, 200);
         
-        
-        
+        platform.create(100, 300);
+        platform.create(485, 400);
+        platform.create(120, 509);  
+        platform.create(400, 600);
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     };
